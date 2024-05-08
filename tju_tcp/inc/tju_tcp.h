@@ -4,7 +4,6 @@
 #include "global.h"
 #include "tju_packet.h"
 #include "queue.h"
-#include "kernel.h"
 #include "trace.h"
 #include "tran.h"
 #include "tree.h"

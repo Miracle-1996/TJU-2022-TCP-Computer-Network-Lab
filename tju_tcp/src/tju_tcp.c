@@ -6,6 +6,9 @@
 pthread_mutex_t thread_print_lock = PTHREAD_MUTEX_INITIALIZER;
 extern sender_window_t global_sender;
 extern FILE* debug_file;
+extern bhash[];
+extern listen_socks[];
+extern established_socks[];
 static int seed = 0;
 
 /*
